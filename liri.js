@@ -1,6 +1,6 @@
 // requirements and variables
 require("./.env").config();
-var keys = require("./keys.js");
+var keys = require("./assets/javascript/keys.js");
 var spotify = ("node-spotify-api");
 var Spotify = new Spotify(keys.spotify);
 var liri = require("liri");
